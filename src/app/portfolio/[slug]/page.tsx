@@ -47,7 +47,7 @@ const Page = ({ params }: { params: { slug: string } }) => {
                             )}
                         </Flex>
 
-                        <Flex mt={3} gap={3} alignItems={'baseline'}>
+                        <Flex mt={3} gap={3} alignItems={'baseline'} flexWrap={'wrap'}>
                             {post.stack.map((tag) => (
                                 <Badge p={3} key={tag} rounded={'md'}>
                                     {tag}
