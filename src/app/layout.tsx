@@ -6,11 +6,12 @@ import dynamic from 'next/dynamic'
 import { ReactNode } from 'react'
 import './globals.sass'
 import Providers from './providers'
-
+import Favicon from '/public/favicon.ico'
 const Background = dynamic(() => import('@/components/three/background'), { ssr: false })
 export const metadata: Metadata = {
-    title: 'HS :: Home',
-    description: 'Bblog',
+    title: 'HS ::',
+    description: '개발이 좋아요!',
+    icons: [{ rel: 'icon', url: Favicon.src }],
 }
 
 const RootLayout = ({ children }: { children: ReactNode }) => {

@@ -2,6 +2,7 @@ import { Link } from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
 import NextLink from 'next/link'
 import { FaGithub, FaLayerGroup, FaUserLarge } from 'react-icons/fa6'
+import { SiMisskey, SiTistory } from 'react-icons/si'
 
 const Toggler = dynamic(() => import('@/components/navigator/themeToggler'), { ssr: false })
 
@@ -16,9 +17,27 @@ export const MENU_ICONS = [
         order: 2,
     },
     {
+        name: 'misskey',
+        icon: (
+            <Link href='https://mi.gumyo.net'>
+                <SiMisskey />
+            </Link>
+        ),
+        order: 3,
+    },
+    {
+        name: 'tistory',
+        icon: (
+            <Link href='https://hbyun.tistory.com'>
+                <SiTistory />
+            </Link>
+        ),
+        order: 3,
+    },
+    {
         name: 'toggler',
         icon: <Toggler />,
-        order: 3,
+        order: 6,
     },
     {
         name: 'user',

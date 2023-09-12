@@ -13,8 +13,8 @@ const hoverStyle = {
 }
 
 const fonts = {
-    heading: "'M PLUS Rounded 1c'",
-    body: "'M PLUS Rounded 1c'",
+    heading: '"M PLUS Rounded 1c", sans-serif',
+    body: '"M PLUS Rounded 1c", sans-serif',
 }
 
 const components = {
@@ -30,22 +30,22 @@ const components = {
 }
 const styles = {
     global: (props: StyleFunctionProps) => ({
-        root: {
-            '--color-cursor': '220, 90, 90',
-            '--cursor-outline-shade': '0.3',
-            '--cursor-size': '10px',
-            '--cursor-outline-size': '12px',
-        },
         body: {
             bg: props.colorMode === 'dark' ? 'black' : 'white',
         },
     }),
 }
 
+const config = {
+    initialColorMode: 'dark',
+    useSystemColorMode: false,
+}
+
 const theme = extendTheme({
     fonts,
     components,
     styles,
+    config,
 })
 
 export default theme
