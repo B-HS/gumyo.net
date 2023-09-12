@@ -3,7 +3,7 @@ import { Box, Flex, Text } from '@chakra-ui/react'
 const Prosoft = () => (
     <>
         <Text fontSize={'2xl'} fontWeight={'bold'} textAlign={'center'} pt={2}>
-            Prosoft @Changewon
+            Prosoft @Changwon
         </Text>
         <Text fontSize={'lg'} fontWeight={'bold'} textAlign={'center'}>
             Web Developer @S.Korea
