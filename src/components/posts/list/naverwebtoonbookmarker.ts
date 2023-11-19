@@ -15,7 +15,7 @@ export const naverwebtoonbookmarker = {
     <br>
     마침 이 아이디어를 살려서 익스텐션 제작을 시작하게 되었습니다 <br>
     `,
-    stack: ['vue3', 'spring boot', 'vuex', '.sass', 'bootstrap'],
+    stack: ['react', 'crxjs', 'chakra ui'],
     github: 'https://github.com/B-HS/Naver_Webtoon_Bookmarker',
     link: 'https://chrome.google.com/webstore/detail/%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%9B%B9%ED%88%B0-%EB%B6%81%EB%A7%88%ED%81%AC/cnfglfaobnkgkcnagfbaeilbpkcjcanh/related?hl=ko',
     from: new Date('2023-03-11 00:00:00.000000'),

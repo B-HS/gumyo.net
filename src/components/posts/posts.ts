@@ -1,5 +1,7 @@
+import { bcms } from './list/bcms'
 import { aco } from './list/aco'
 import { airreview } from './list/airreview'
+import { bood } from './list/bood'
 import { burrency } from './list/burrency'
 import { naverwebtoonbookmarker } from './list/naverwebtoonbookmarker'
 import { tistoryskin } from './list/tistoryskin'
@@ -15,4 +17,4 @@ export interface POST {
     to?: Date
 }
 
-export const post = [burrency, naverwebtoonbookmarker, airreview, aco, tistoryskin] as POST[]
+export const post = [bcms, bood, burrency, naverwebtoonbookmarker, airreview, aco, tistoryskin] as POST[]

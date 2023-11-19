@@ -25,7 +25,7 @@ const Stack = () => (
                     <Text fontWeight={'bold'}>
                         • <Badge>Back-End</Badge>
                     </Text>
-                    <Text ml={2}> - Spring boot(~3.x.x), Nestjs</Text>
+                    <Text ml={2}> - Spring boot, Express, Nestjs</Text>
                 </Box>
                 <Box>
                     <Text fontWeight={'bold'}>
