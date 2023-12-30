@@ -1,5 +1,6 @@
 <img width="826" alt="image" src="https://github.com/B-HS/gumyo.net/assets/49316060/dbef59b1-2897-4424-a862-cd06f791f049">
 
+- 블로그 완성되면 portfolio.gumyo.net + cloudflare page로 이전 예정
 # [gumyo.net](https://gumyo.net)
 - Nextjs 13
 - Framer-motion
